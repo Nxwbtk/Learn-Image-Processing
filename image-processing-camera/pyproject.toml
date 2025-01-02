@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "image-processing-camera"
+version = "0.1.0"
+description = ""
+authors = ["NewDev <65420147@kmitl.ac.th>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
